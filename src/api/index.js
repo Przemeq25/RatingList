@@ -12,8 +12,8 @@ export const fetchData = async () => {
 
 export const fetchUserData = async (albumNumber) =>{
     try{
-        const {data} = await axios.get(`${url}/${albumNumber} `);
-        return data;
+        const {data:{labs}} = await axios.get(`${url}/${albumNumber} `);
+        return labs;
     }catch{
 
     }

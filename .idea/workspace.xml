@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c645d3-622e-4708-839e-115b0ac43390" name="Default Changelist" comment="k">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserListItemDetails/UserListItemDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserListItemDetails/UserListItemDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserList/UserList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserList/UserList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projekty\ratinglist\src\images" />
       <recent name="D:\Projekty\ratinglist\src\components\SearchBar" />
     </key>
   </component>
@@ -77,7 +79,7 @@
       <updated>1587633172780</updated>
       <workItem from="1587633174484" duration="10206000" />
       <workItem from="1587658552126" duration="12991000" />
-      <workItem from="1587725473879" duration="17448000" />
+      <workItem from="1587725473879" duration="33055000" />
     </task>
     <servers />
   </component>

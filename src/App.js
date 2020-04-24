@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {fetchData} from "./api";
+import {fetchData, fetchUserData} from "./api";
 import {SearchBar} from "./components/SearchBar/SearchBar";
 
 import {UserList} from "./components/UserList/UserList";
@@ -13,6 +13,7 @@ class App extends React.Component{
     this.state= {
         albumNumber:undefined,
         data:'',
+
     }
   }
 
@@ -27,6 +28,8 @@ class App extends React.Component{
 
   async componentDidMount(){
     const data = await fetchData();
+      const data2 = await fetchUserData(30744);
+      console.log(data2);
     this.setState({
         data:data
     })

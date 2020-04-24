@@ -18,10 +18,7 @@ export const UserList =({data})=>{
         />));
     return(
       <div className='list_container'>
-
           {userData}
-
-
       </div>
     );
 }
