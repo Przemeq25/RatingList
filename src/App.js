@@ -28,18 +28,22 @@ class App extends React.Component{
 
   async componentDidMount(){
     const data = await fetchData();
-      const data2 = await fetchUserData(30744);
-      console.log(data2);
     this.setState({
         data:data
     })
   }
   render() {
       const{albumNumber,data} =this.state;
+      const searchFilter = Object.values(data).filter(obj =>{
+          if(!albumNumber){
+              return data;
+          }
+          return obj.index.indexOf(albumNumber)!== -1 ;
+      });
     return (
         <div className='container'>
           <SearchBar onChange = {this.handleChange} value ={albumNumber}/>
-            <UserList data={data}/>
+            <UserList data={searchFilter} albumNumber={albumNumber}/>
         </div>
     );
   }

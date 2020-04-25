@@ -4,7 +4,8 @@ import {UserListItem} from "../UserListItem/UserListItem";
 
 export const UserList =({data})=>{
 
-    const userData = Object.values(data).map(item => (
+
+    const userData = data.map(item => (
         <UserListItem
             key={item.index}
             index = {item.index}
