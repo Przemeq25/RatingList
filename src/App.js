@@ -11,17 +11,17 @@ class App extends React.Component{
   constructor(props){
     super(props);
     this.state= {
-        albumNumber:undefined,
+        searchValue:undefined,
         data:'',
 
     }
   }
 
    handleChange = (event) =>{
-    const {albumNumber} = this.state;
+    const {searchValue} = this.state;
     const {value} = event.target;
     this.setState({
-      albumNumber:value
+      searchValue:value
     })
 
   };
@@ -33,17 +33,18 @@ class App extends React.Component{
     })
   }
   render() {
-      const{albumNumber,data} =this.state;
+      const{searchValue,data} =this.state;
       const searchFilter = Object.values(data).filter(obj =>{
-          if(!albumNumber){
+          if(!searchValue){
               return data;
           }
-          return obj.index.indexOf(albumNumber)!== -1 ;
+
+          return  obj.group.indexOf(searchValue.toUpperCase())!== -1 || obj.index.indexOf(searchValue)!== -1;
       });
     return (
         <div className='container'>
-          <SearchBar onChange = {this.handleChange} value ={albumNumber}/>
-            <UserList data={searchFilter} albumNumber={albumNumber}/>
+          <SearchBar onChange = {this.handleChange} value ={searchValue}/>
+            <UserList data={searchFilter} searchValue={searchValue}/>
         </div>
     );
   }

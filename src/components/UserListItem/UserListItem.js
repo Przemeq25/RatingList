@@ -1,10 +1,11 @@
 import React, {useState} from "react";
 import './UserListItem.css';
 import CloseIcon from '@material-ui/icons/Close';
+import DoneOutlineIcon from '@material-ui/icons/DoneOutline';
 import {UserListItemDetails} from "../UserListItemDetails/UserListItemDetails";
 export const UserListItem = ({group,index,mark,presenceCounter,absenceCounter,allPoints,homeworkPoints,lecturePoints}) =>{
     const[open,setOpen]=useState(false);
-
+    const[showInfo, setShowInfo]=useState(false);
 
 
     return(
@@ -26,13 +27,18 @@ export const UserListItem = ({group,index,mark,presenceCounter,absenceCounter,al
                 <button className="btn_more" onClick={()=>{setOpen(!open)}}>Laboratoria</button>
             </div>
             <div className="item_list">
-
                 <ul>
-                    <li>Wszystkie punkty: <span>{allPoints} </span>
-                        {lecturePoints>0 && <span className='lecture_points'onClick={()=>{setOpen(!open)}}>OK</span>} </li>
-                    <li>Zadania pkt: <span>{homeworkPoints}</span> </li>
-                    <li>Obecności: <span>{presenceCounter}</span> </li>
-                    <li>Nieobecności: <span>{absenceCounter}</span> </li>
+                    <li>{showInfo ? <span>Wykład/ konkurs : {lecturePoints}</span> : <span>Wszystkie punkty: {allPoints} </span>}
+                        {lecturePoints > 0 && <span className='extra_span'>
+                            <DoneOutlineIcon
+                                onMouseEnter={()=>setShowInfo(true)}
+                                onMouseLeave={()=>setShowInfo(false)}
+                                color='inherit'/></span>}
+
+                    </li>
+                    <li>Zadania pkt: {homeworkPoints} </li>
+                    <li>Obecności: {presenceCounter} </li>
+                    <li>Nieobecności: {absenceCounter} </li>
 
                 </ul>
             </div>

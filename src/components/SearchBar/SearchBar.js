@@ -5,7 +5,7 @@ import React from "react";
 export const SearchBar =(props)=>{
     return(
         <div className='search_container'>
-            <TextField id = "outlined-basic" label ="Szukaj indeks" variant="filled" onChange={props.onChange} defaultValue={props.value}/>
+            <TextField id = "outlined-basic" label ="Szukaj indeks lub grupę" variant="filled" onChange={props.onChange} defaultValue={props.value}/>
         </div>
     );
 }
