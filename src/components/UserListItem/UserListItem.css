@@ -41,13 +41,11 @@
     cursor:pointer;
     background-color: transparent;
     border-radius: 4px;
-
 }
 .btn_more:hover{
     color:#ffffff;
 }
 .item_list{
-
     padding: 20px 0 40px;
     background: transparent;
     border-bottom-right-radius: 6px;
@@ -55,7 +53,6 @@
 }
 .item_list ul {
     list-style: none;
-
     display: flex;
     flex-direction: column;
     margin: 0 auto;

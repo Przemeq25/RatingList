@@ -17,7 +17,6 @@ export const UserListItem = ({group,index,mark,presenceCounter,absenceCounter,al
                     index ={index}
                 />
                 <div className='btn_close'> <CloseIcon onClick={()=>{setOpen(!open)}}/></div>
-
             </>
             }
             <div className="item_header">

@@ -2,20 +2,34 @@
     position: absolute;
     top:50px;
     left:0px;
-    height: calc(100% - 50px);
+    min-height: calc(100% - 50px);
     width: 100%;
     background: linear-gradient(#50687e,#34495e);
     border-radius: 6px;
     text-align: center;
     padding: 5px;
+    z-index: 19;
 }
 .detail_row{
     margin: 5px;
     display: flex;
+    justify-content: space-between;
     border-bottom: 2px solid #c3b7c0;
     padding: 5px;
     color:#ffffff;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+.presence_row_true{
+     border-bottom: 2px solid #00c307;
+ }
+.presence_row_false{
+    border-bottom: 5px solid #c30501;
+}
+.detail_data{
+
+}
+.detail_points{
+    margin: 0px 10px;
 }
 .loading{
     color:#ffffff;

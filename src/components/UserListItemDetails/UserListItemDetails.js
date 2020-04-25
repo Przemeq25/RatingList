@@ -20,16 +20,20 @@ export const UserListItemDetails =({index})=> {
         </div>);
     }else{
         const laboratories = Object.values(labs).map(item=>(
-            <div className='detail_row' key={item.dateOfLab}>
+            <div className={`detail_row ${item.presence?'presence_row_true': 'presence_row_false'}`} key={item.dateOfLab}>
                 <p className='detail_data'>{item.dateOfLab}</p>
-                <p className='detail_points'> {item.points}</p>
+                <p className='detail_points'>{item.points}</p>
             </div>
         ));
 
         return (
-            <div className='item_detail'>{laboratories}</div>
+            <div className='item_detail'>
+                <div className='detail_row'>
+                    <p className='detail_data'>Data</p>
+                    <p className='detail_points'>Punkty</p>
+                </div>
+                {laboratories}
+            </div>
             );
     }
-
-
 }
