@@ -34,6 +34,6 @@ export const UserListItemDetails =({index})=> {
                 </div>
                 {laboratories}
             </div>
-            );
+        );
     }
 }

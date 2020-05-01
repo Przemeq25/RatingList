@@ -9,6 +9,20 @@
     text-align: center;
     padding: 5px;
     z-index: 19;
+    animation-name:animate;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+@keyframes animate {
+    from{
+        opacity: 0.8;
+        transform: translateY(-10%);
+    }
+    to{
+        opacity: 1;
+        tranfsorm:translateY(0%);
+    }
+
 }
 .detail_row{
     margin: 5px;

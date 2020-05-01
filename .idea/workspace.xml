@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="07c645d3-622e-4708-839e-115b0ac43390" name="Default Changelist" comment="k">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserListItemDetails/UserListItemDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserListItemDetails/UserListItemDetails.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserListItemDetails/UserListItemDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserListItemDetails/UserListItemDetails.js" afterDir="false" />
     </list>
@@ -26,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReactProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,7 +74,10 @@
       <workItem from="1587633174484" duration="10206000" />
       <workItem from="1587658552126" duration="12991000" />
       <workItem from="1587725473879" duration="33302000" />
-      <workItem from="1587836738724" duration="9295000" />
+      <workItem from="1587836738724" duration="9634000" />
+      <workItem from="1588002181799" duration="12000" />
+      <workItem from="1588231961750" duration="614000" />
+      <workItem from="1588338378069" duration="1126000" />
     </task>
     <servers />
   </component>
