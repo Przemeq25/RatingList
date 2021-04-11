@@ -1,4 +1,4 @@
-# RestaurantManagement
+# RatingList
 
 
 ### Short description:
